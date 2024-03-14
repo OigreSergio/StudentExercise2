@@ -19,7 +19,7 @@ public class Main {
 
         Collections.sort(students, Comparator.comparingInt(Student::getAge));
 
-        System.out.println("\nArrayList ordinato per età:");
+        System.out.println("\nArrayList tidy by age : ");
         printStudents(students);
     }
     public static void printStudents(ArrayList<Student> students) {
